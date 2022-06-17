@@ -211,3 +211,13 @@ function twoNumberSum(array, targetSum) {
 
 console.log(twoNumberSum([9,1,3,4,5], 6)) // [1,5]
 console.log(twoNumberSum([1,2,3,4,5], 10)) // []
+
+/**
+ * In this last example, we're only iterating the array once, without doing anything else before. This is the best solution, since we're performing the smallest number of operations. The complexity in this case is linear – O(n).
+
+This is truly the most important concept behind algorithms. 
+Being able to compare different implementations and understand which 
+is more efficient and why is really an important knowledge to have.
+ So if the concept isn't clear for you yet, I encourage you to read 
+the examples again, look for other resources, or check this awesome freeCodeCamp video-course.
+ */
